@@ -63,11 +63,11 @@ class MagnifyView: UIView {
     
     func commonInit()
     {
-        // Set border color, border width and corner radius of the magnify view
-        self.layer.borderColor = UIColor.lightGray.cgColor
-        self.layer.borderWidth = 3
-        self.layer.cornerRadius = 50
-        self.layer.masksToBounds = true
+//        // Set border color, border width and corner radius of the magnify view
+//        self.layer.borderColor = UIColor.lightGray.cgColor
+//        self.layer.borderWidth = 3
+//        self.layer.cornerRadius = 50
+//        self.layer.masksToBounds = true
     }
     
     func setTouchPoint(pt: CGPoint)
